@@ -1,0 +1,109 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/bin/npm', 'install', '-g', 'firebase-tools' ]
+info using npm@1.1.4
+info using node@v0.6.12
+verbose config file /home/jowe2207/.npmrc
+verbose config file /usr/etc/npmrc
+verbose config file /usr/share/npm/npmrc
+verbose cache add [ 'firebase-tools', null ]
+silly cache add: name, spec, args [ undefined, 'firebase-tools', [ 'firebase-tools', null ] ]
+verbose parsed url { pathname: 'firebase-tools',
+verbose parsed url   path: 'firebase-tools',
+verbose parsed url   href: 'firebase-tools' }
+verbose addNamed [ 'firebase-tools', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'firebase-tools', '', false ]
+verbose raw, before any munging firebase-tools
+verbose url resolving [ 'https://registry.npmjs.org/', './firebase-tools' ]
+verbose url resolved https://registry.npmjs.org/firebase-tools
+verbose etag "1OT3G6T8PU9ZITGGUMQ7KVV9Z"
+http GET https://registry.npmjs.org/firebase-tools
+silly get cb [ 304, undefined ]
+verbose etag firebase-tools from cache
+silly name, range, hasData 2 [ 'firebase-tools', '', true ]
+silly versions [ 'firebase-tools',
+silly versions   [ '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.0.3',
+silly versions     '0.0.4',
+silly versions     '0.0.5',
+silly versions     '0.0.6',
+silly versions     '0.1.0',
+silly versions     '0.1.1',
+silly versions     '0.1.2',
+silly versions     '0.1.3',
+silly versions     '0.1.4',
+silly versions     '0.1.5',
+silly versions     '0.1.6',
+silly versions     '0.2.0',
+silly versions     '0.3.0',
+silly versions     '0.4.0',
+silly versions     '0.5.0',
+silly versions     '1.0.0',
+silly versions     '1.0.1' ] ]
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-x64-3.10.18',
+verbose bin dist   { shasum: '495373f79980fb5a316010feb28e55c33f18692e',
+verbose bin dist     tarball: 'http://registry.npmjs.org/firebase-tools/-/firebase-tools-1.0.1.tgz' } ]
+verbose caching /home/jowe2207/.npm/firebase-tools/1.0.1/package/package.json
+verbose loadDefaults firebase-tools@1.0.1
+silly resolved [ { name: 'firebase-tools',
+silly resolved     preferGlobal: true,
+silly resolved     version: '1.0.1',
+silly resolved     description: 'The Firebase Command Line Tools',
+silly resolved     keywords: [ 'firebase' ],
+silly resolved     author: { name: 'Firebase', email: 'support@firebase.com' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'Chris Raynor', email: 'chris@firebase.com' },
+silly resolved        { name: 'Adam Putinski', email: 'adam@firebase.com' },
+silly resolved        { name: 'Rob DiMarco', email: 'rob@firebase.com' } ],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/firebase/firebase-tools.git' },
+silly resolved     homepage: 'https://github.com/firebase/firebase-tools',
+silly resolved     dependencies: 
+silly resolved      { optimist: '0.6.x',
+silly resolved        prompt: '0.2.x',
+silly resolved        tar: '0.1.x',
+silly resolved        open: '0.0.x',
+silly resolved        request: '2.34.x',
+silly resolved        'fstream-ignore': '0.0.x',
+silly resolved        temp: '0.6.x',
+silly resolved        firebase: '~1.0.11',
+silly resolved        progress: '~1.1.5',
+silly resolved        when: '3.1.0',
+silly resolved        chalk: '~0.4.0' },
+silly resolved     bin: { firebase: './bin/firebase' },
+silly resolved     _id: 'firebase-tools@1.0.1',
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'firebase-tools' } ]
+info into /usr/local/lib firebase-tools@1.0.1
+info installOne firebase-tools@1.0.1
+verbose from cache /home/jowe2207/.npm/firebase-tools/1.0.1/package/package.json
+info unbuild /usr/local/lib/node_modules/firebase-tools
+verbose mkdir (expected) error ENOENT, no such file or directory '/usr/local/lib/node_modules/___firebase-tools.npm'
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /usr/local/lib/node_modules/firebase-tools
+ERR! Could not create /usr/local/lib/node_modules/___firebase-tools.npm
+ERR! error installing firebase-tools@1.0.1
+info unbuild /usr/local/lib/node_modules/firebase-tools
+verbose installOne cb firebase-tools@1.0.1
+ERR! Error: EACCES, permission denied '/usr/local/lib/node_modules/___firebase-tools.npm'
+ERR! 
+ERR! Please try running this command again as root/Administrator.
+ERR! 
+ERR! System Linux 3.10.18
+ERR! command "node" "/usr/bin/npm" "install" "-g" "firebase-tools"
+ERR! cwd /home/jowe2207/Spark/MyFirstApp
+ERR! node -v v0.6.12
+ERR! npm -v 1.1.4
+ERR! path /usr/local/lib/node_modules/___firebase-tools.npm
+ERR! code EACCES
+ERR! message EACCES, permission denied '/usr/local/lib/node_modules/___firebase-tools.npm'
+ERR! errno {}
+verbose exit [ 1, true ]

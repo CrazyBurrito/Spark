@@ -8,12 +8,19 @@ h1{
 }   
 
 .sections{
+/*
     display:inline-block;
+*/
+    display:inline-flex;
 }
 
 #lists{
     color:orange;
+/*
     display:block;
+*/
+    display:flex;
+    flex-direction:column;
 }
 
 .centerimage{
@@ -26,6 +33,29 @@ h1{
     height:175px;
 }
 
+#kitten{
+    height:175px;
+    width:207px;
+    background-image:url("/MayorPage/kitty.png");
+    background-size:250px;
+    background-position:center;
+    font-size:20;
+    text-align:left;
+    color:white;
+    text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#tacos{
+    height:175px;
+    width:460px;
+    background-image:url("http://www.lapasaditatacoshop.com/wp-content/uploads/2012/10/4tacos-1020x388.jpg");
+    background-size:460px 175px;
+    font-size:20;
+    text-align:left;
+    color:white;
+    text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 p{
     text-align:center;
 }
@@ -36,14 +66,6 @@ p{
     border-style:dashed;
     border-width:10px;
     border-radius:15px;
-    padding-top:5px;
-    padding-bottom:5px;
-    padding-left:5px;
-    padding-right:5px;
-    margin-top:5px;
-    margin-bottom:5px;
-    margin-left:5px;
-    margin-right:5px;
 }
 
 .profile-section{

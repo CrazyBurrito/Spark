@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/cosmo/bootstrap.min.css">
+<!--
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </head>
+    
+    <body>
+        
+        <div class="container">
+            <div class="jumbotron">
+                <div class="row">
+                    <nav class="navbar navbar-default navbar-fixed-top">
+                      <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                          </button>
+                          <a class="navbar-brand glyphicon glyphicon-star active" href="#">Cats</a>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                          <ul class="nav navbar-nav">
+                            <li><a href="#Tube">Tube <span class="sr-only">(current)</span></a></li>
+                            <li><a href="#Lime">Lime</a></li>
+                            <li><a href="#Bread">Bread</a></li>
+                          </ul>
+                          <form class="navbar-form navbar-right" role="search">
+                            <div class="form-group">
+                              <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                          </form>
+<!--
+                          <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Link</a></li>
+                            <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                              </ul>
+-->
+                            </li>
+                          </ul>
+                        </div><!-- /.navbar-collapse -->
+                      </div><!-- /.container-fluid -->
+                    </nav>
+<!--
+                </div>
+-->
+                
+                <h1>This is a page about cats</h1>
+                <p>...well mostly just pictures of silly cats</p>
+                
+                <div class="row"></div>
+                    <div class="col-sm-12">
+                        <div id="Tube" class="row"> 
+                            <div class="col-md-6">
+                                <img class="img-responsive" src="https://i.ytimg.com/vi/tntOCGkgt98/maxresdefault.jpg"/>
+                            </div>
+               
+                            <div class="col-md-6">
+                                <p>Tube Cat</p>
+                            </div>
+                        </div>
+                        
+                        <div id="Lime" class="row"> 
+                            <div class="col-md-6">
+                                <img class="img-responsive" src="http://i1.kym-cdn.com/photos/images/facebook/000/012/445/lime-cat.jpg"/>
+                            </div>
+               
+                            <div class="col-md-6 glyphicon glyphicon-star">
+                                <p>Lime Cat</p>
+                            </div>
+                        </div>
+                        
+                        <div id="Bread" class="row"> 
+                            <div class="col-md-6">
+                                <img class="img-responsive" src="http://orig09.deviantart.net/2204/f/2014/045/5/0/bread_head_kitty_gif_by_kawaiibron_3-d76h33v.jpg"/>
+                            </div>
+               
+                            <div class="col-md-6">
+                                <p>Bread Cat</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                  All The Cats
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">All The Cats</h4>
+                      </div>
+                      <div class="modal-body">
+                          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                          <!-- Indicators -->
+                          <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+
+                          </ol>
+
+                          <!-- Wrapper for slides -->
+                          <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                              <img src="https://i.ytimg.com/vi/tntOCGkgt98/maxresdefault.jpg" alt="Tube Cat">
+                              <div class="carousel-caption">
+                                Tube Cat
+                              </div>
+                            </div>
+                            <div class="item">
+                              <img src="http://i1.kym-cdn.com/photos/images/facebook/000/012/445/lime-cat.jpg" alt="Lime Cat">
+                              <div class="carousel-caption">
+                                Lime Cat
+                              </div>
+                            </div>
+                            <div class="item">
+                              <img src="http://orig09.deviantart.net/2204/f/2014/045/5/0/bread_head_kitty_gif_by_kawaiibron_3-d76h33v.jpg" alt="Bread Cat">
+                              <div class="carousel-caption">
+                                Bread Cat
+                              </div>
+                            </div>
+                            <div class="item">
+                              <img src="https://s-media-cache-ak0.pinimg.com/736x/e7/77/77/e77777f7d144b5a967322f9b716ba07e.jpg" alt="Grape Cat">
+                              <div class="carousel-caption">
+                                Grape Cat
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Controls -->
+                          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                          
+<!--
+                        <img class="img-responsive" src="https://s-media-cache-ak0.pinimg.com/736x/e7/77/77/e77777f7d144b5a967322f9b716ba07e.jpg"/>
+-->
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            
+                
+            </div>
+        </div>
+        
+    </body>
+    
+
+</html>

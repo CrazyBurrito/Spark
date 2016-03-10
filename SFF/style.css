@@ -1,0 +1,32 @@
+html,body,.container{
+    height:100%;
+}
+
+.row{
+    display: table;
+    width:100%;
+    min-height:100%;
+}
+
+
+.col-sm-6{
+    float: none;
+    display: table-cell;
+/*
+    background-color:red;
+*/
+}
+
+#chat{
+    float:none;
+    display: table-cell;
+    background-color:#66ccff;
+    border-radius:10px;
+}
+
+.bottom-align{
+    position:absolute;
+    bottom:0;
+    width:95%;
+}
+

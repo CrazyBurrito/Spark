@@ -2,6 +2,18 @@ html,body,.container{
     height:100%;
 }
 
+body{
+/*
+    background-image:url("logo.png");
+*/
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-color:#e7eff6;
+}
+
+.jumbotron{
+    background-color:#adcbe3;
+}
 .row{
     display: table;
     width:100%;
@@ -20,7 +32,10 @@ html,body,.container{
 #chat{
     float:none;
     display: table-cell;
+/*
     background-color:#66ccff;
+*/
+    background-color:#63ace5;
     border-radius:10px;
 }
 

@@ -1,5 +1,6 @@
 html,body,.container{
     height:100%;
+    width:"100%";
 }
 
 body{
@@ -19,8 +20,19 @@ body{
     width:100%;
     min-height:100%;
 }
+/*
 
+.wrap{
+    width:500px;
+    height:500px;
+    overflow:hidden;
+}
 
+#blog{
+    transform:scale(.9);
+    width:100%;
+}
+*/
 .col-sm-6{
     float: none;
     display: table-cell;

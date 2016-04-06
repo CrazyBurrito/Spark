@@ -12,16 +12,30 @@
 -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" href="loremIpsumStyles.css">
     </head>
     
     <body>
-        <div class="jumbotron">
-            <h1>Lorem Ipsum Generator</h1>
-            Number of paragraphs: <input id="numInput"type="number" name="numParagraphs" value="4" min="1" max="99"><br>
-            <button id="generate">Generate</button>
-            <p></p>
+        <div class="container">
+            <div class="row">
+                <div id="banner">
+                    <img src="magicTCGLogo.png"></img>
+                </div>
+            </div>
+            <div class="row" id="mainContent">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                    <h2>Lorem Ipsum Generator</h2>
+                    <p>Top 50 words used in /r/magicTCG for March '16</p>
+                    Number of paragraphs: <input id="numInput" type="number" name="numParagraphs" value="4" min="1" max="99"><br>
+                    <button id="generate">Generate</button><br><br>
+                    <p id="ipsum"></p>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+                
+            </div>
         </div>
-    
         <script src="loremScript.js"></script>
             
     </body>

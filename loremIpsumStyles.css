@@ -1,0 +1,17 @@
+body{
+    background-color:#061E3A;
+}
+
+#banner{
+    background-image:url('magicTCGBanner.jpg');
+}
+
+#mainContent{
+    background-color:#9B9FA2;
+}
+
+#ipsum{
+    background-color:#DBDBD3;
+    padding:20px;
+    border-radius:15px;
+}

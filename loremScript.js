@@ -1,4 +1,4 @@
-var array = ["card","deck","set","play","game","people","time","creature","players","mana","lands","magic","pretty","opponent","mean","playing","jace","standard","probably","modern","draw","spell","format","win","bad","eldrazi","ability","cost","art","feel","hand","color","innistrad","makes","control","work","yeah","story","cast","top","love","guy","madness","fun","damage","look","block","thought","rules","event"];
+var wordsArray = ["card","deck","set","play","game","people","time","creature","players","mana","lands","magic","pretty","opponent","mean","playing","jace","standard","probably","modern","draw","spell","format","win","bad","eldrazi","ability","cost","art","feel","hand","color","innistrad","makes","control","work","yeah","story","cast","top","love","guy","madness","fun","damage","look","block","thought","rules","event"];
 var paragraphText = "";
 
 function capitalizeFirstLetter(string) {
@@ -29,15 +29,14 @@ $("#generate").click(function(){
         sentanceLength = (Math.floor(Math.random()*10)+15);
         
         for(i=0; i<paragraphLength; i++){
-            index = Math.floor(Math.random()*array.length);
-            console.log(sentanceLength);
+            index = Math.floor(Math.random()*wordsArray.length);
             
             if(cap){
-                paragraphText+= capitalizeFirstLetter(array[index]);
+                paragraphText+= capitalizeFirstLetter(wordsArray[index]);
                 cap = false;
             }
             else
-                paragraphText+= array[index];
+                paragraphText+= wordsArray[index];
                 
             if(i == sentanceLength && i != paragraphLength - 1){
                 paragraphText+= "."

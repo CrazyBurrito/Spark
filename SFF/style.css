@@ -1,6 +1,13 @@
 html,body,.container{
     height:100%;
+/*
     width:"100%";
+*/
+}
+
+#nav{
+    height:50px;
+    min-height:50px;
 }
 
 body{
@@ -19,37 +26,50 @@ body{
     display: table;
     width:100%;
     min-height:100%;
-}
 /*
+    font-size:0;
+*/
+}
+
+#description{
+    font-size:18px;
+    padding-top:15%;
+/*
+    display:inline-block;
+    vertical-align:middle;
+    float:none;
+*/
+}
 
 .wrap{
-    width:500px;
-    height:500px;
-    overflow:hidden;
 }
-
+/*
 #blog{
     transform:scale(.9);
     width:100%;
 }
 */
+/*
 .col-sm-6{
     float: none;
+
     display: table-cell;
-/*
+
     background-color:red;
-*/
+
 }
+*/
+
 
 #chat{
     float:none;
     display: table-cell;
 /*
-    background-color:#66ccff;
-*/
     background-color:#63ace5;
     border-radius:10px;
+*/
 }
+
 
 .bottom-align{
     position:absolute;
@@ -57,3 +77,8 @@ body{
     width:95%;
 }
 
+.footer{
+    position:fixed;
+    bottom:0;
+    right:0;
+}
